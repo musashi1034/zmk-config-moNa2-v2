@@ -4,24 +4,24 @@ layers:
   - Q
   - L
   - U
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - F
-  - G
   - '-'
-  - H
-  - J
+  - .
+  - F
+  - W
+  - R
+  - Y
+  - P
+  - E
+  - I
+  - A
+  - O
+  - ','
   - K
-  - L
-  - {t: ;, h: MOUSE_W}
+  - T
+  - N
+  - S
+  - H
+  - ''''
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -193,7 +193,7 @@ layers:
   - '&mkp MB1'
   - SCRL_W
   - '&mkp MB2'
-  - {t: '&henkan', type: held}
+  - '&henkan'
   - {t: KP 0, h: LEFT SHIFT}
   - Ctl+Y
   - DOWN ARROW
@@ -210,7 +210,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ENTER
   - BACKSPACE
