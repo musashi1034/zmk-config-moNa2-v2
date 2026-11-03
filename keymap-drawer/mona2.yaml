@@ -2,8 +2,8 @@ layout: {zmk_keyboard: mona2}
 layers:
   WIN:
   - Q
-  - W
-  - E
+  - L
+  - U
   - R
   - T
   - Y
@@ -45,8 +45,8 @@ layers:
   - RIGHT SHIFT
   MAC:
   - Q
-  - W
-  - E
+  - L
+  - U
   - R
   - T
   - Y
