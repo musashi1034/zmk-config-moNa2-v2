@@ -22,16 +22,16 @@ layers:
   - S
   - H
   - ''''
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
-  - B
-  - ':'
-  - ;
-  - N
+  - /
+  - G
+  - D
   - M
-  - ','
+  - J
+  - B
   - .
   - {t: /, h: BLE_W}
   - RCTRL
