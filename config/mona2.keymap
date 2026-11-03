@@ -182,10 +182,10 @@
         win_layer {
             display-name = "WIN";
             bindings = <
-&kp Q             &kp L         &kp U         &kp MINUS    &kp PERIOD                                 &kp F          &kp W  &kp R      &kp Y    &kp P
-&kp E             &kp I         &kp A         &kp O        &kp COMMA                   &kp K          &kp T          &kp N  &kp S      &kp H    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp COLON      &kp SEMICOLON  &kp N          &kp M  &kp COMMA  &kp DOT  &lt 10 SLASH
-&kp RCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 GRAVE  &lt 4 SPACE  &lt 6 MINUS    &kp ENTER      &kp BACKSPACE                             &kp RIGHT_SHIFT
+&kp Q      &kp L         &kp U         &kp MINUS    &kp PERIOD                             &kp F          &kp W  &kp R  &kp Y    &kp P
+&kp E      &kp I         &kp A         &kp O        &kp COMMA                   &kp K      &kp T          &kp N  &kp S  &kp H    &kp SQT
+&kp Z      &kp X         &kp C         &kp V        &kp SLASH    &kp G          &kp D      &kp M          &kp J  &kp B  &kp DOT  &lt 10 SLASH
+&kp RCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 GRAVE  &lt 4 SPACE  &lt 6 MINUS    &kp ENTER  &kp BACKSPACE                         &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&rsr_default>, <&inc_dec_kp C_VOL_DN C_VOL_UP>;
