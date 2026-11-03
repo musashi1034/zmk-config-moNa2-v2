@@ -33,16 +33,16 @@ layers:
   - J
   - B
   - .
-  - {t: /, h: BLE_W}
+  - {t: RIGHT SHIFT, h: BLE_W}
   - RCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '`', h: NUM_W}
-  - {t: SPACE, h: MOUSE_W}
-  - {t: '-', h: SCRL_W}
-  - ENTER
+  - {t: LANGUAGE 5, h: MOUSE_W}
+  - {t: SPACE, h: SCRL_W}
+  - {t: LANGUAGE 4, h: FN_W}
   - BACKSPACE
-  - RIGHT SHIFT
+  - {t: ENTER, h: NUM_W}
+  - ESCAPE
   NUM_W:
   - ESCAPE
   - '!'
@@ -80,11 +80,11 @@ layers:
   - LCTRL
   - LEFT GUI
   - LEFT ALT
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
-  - BACKSPACE
+  - {t: ENTER, h: NUM_W, type: held}
   - RIGHT SHIFT
   MOUSE_W:
   - ESCAPE
@@ -123,8 +123,8 @@ layers:
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
   - BACKSPACE
@@ -167,8 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
